@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автор</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        .header-container {
+    display: flex;
+    align-items: center;
+    max-width: 1400px; 
+    margin: 0 auto;
+	}
+
+        .header-container img {
+            max-width: 200px;
+            height: auto;
+            margin-right: 30px;
+        }
+
+        .header-container h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #0066cc, #004080);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 25px;
+            display: block;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffd700;
+            color: #004080;
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            background-color: #ffd700;
+            left: 0;
+            bottom: 0;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            min-height: 400px;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+<img src="../Documents/polaris new logo.png" alt="">
+        <h1>Автоматизация на стоковата отчетност в ПОЛАРИС ПРОДУКТ</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="tables.html">Таблици и графики</a></li>
+        <li><a href="catalog.html">Стоков каталог</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+        <li><a href="author.html">Автор</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Информация за автора</h2>
+    <p>Казвам се Габриела Драгоева и съм ученичка в 12 клас на Национална финансово-стопанска гимназия (НФСГ), гр. София. Работата ми е посветена на автоматизацията на стоковата отчетност в търговско предприятие по избор.</p>
+
+    <h2>Цел на проекта</h2>
+    <p>Проектът ми има за цел да представи практическо и теоретично изследване на автоматизираната стокова отчетност, включително анализ на наличности, приходи и разходи, с използване на реални данни и документи.</p>
+
+    <h2>Източници и препратки</h2>
+    <ul>
+        <li><a href="https://polaris-bg.com/">Официален сайт на Поларис Продукт</a></li>
+        <li><a href="https://www.nsi.bg/">Национален статистически институт</a></li>
+        <li><a href="https://www.nap.bg/">Национална агенция за приходите</a></li>
+    </ul>
+</main>
+
+<footer>
+    <p>Автор: Габриела Драгоева | <a href="contact.html">Свържете се с мен</a></p>
+    <p>Този сайт е изработен с учебна цел за дипломен проект в Национална финансово-стопанска гимназия (НФСГ).</p>
+</footer>
+
+</body>
+</html>

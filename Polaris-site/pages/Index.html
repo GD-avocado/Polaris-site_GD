@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Празна страница</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px 40px;
+        }
+		
+		.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 1400px; 
+    margin: 0 auto;
+	}
+
+        .header-container img {
+            max-width: 200px;
+            height: auto;
+            margin-right: 30px;
+        }
+
+        .header-container h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+
+        nav {
+            background: linear-gradient(90deg, #0066cc, #004080);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 25px;
+            display: block;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffd700;
+            color: #004080;
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            background-color: #ffd700;
+            left: 0;
+            bottom: 0;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            min-height: 400px;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+  <img src="../Documents/polaris new logo.png" alt="">
+        <h1>Автоматизация на стоковата отчетност в ПОЛАРИС ПРОДУКТ</h1>        
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="tables.html">Таблици и графики</a></li>
+        <li><a href="catalog.html">Стоков каталог</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+        <li><a href="author.html">Автор</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>Въведение</h2>
+    <p>
+        В съвременната търговска практика управлението на стоковите наличности и точната отчетност на движението на стоките са от съществено значение за ефективното функциониране на предприятието. Ръчната обработка на данни и традиционните методи за водене на отчет често водят до неточности, забавяния и загуби, което намалява конкурентоспособността и оперативната ефективност на бизнеса. В този контекст автоматизацията на стоковата отчетност се утвърждава като необходим инструмент за оптимизация на процесите и повишаване на прозрачността при управлението на запасите.
+    </p>
+
+    <h2>Предприятие – Поларис Продукт</h2>
+<img src="../Documents/9444f905-fc61-41a3-a8ce-6ea8c8bb7f58.png" alt="">
+    <p>
+        Поларис Продукт ООД е търговско предприятие с над 30-годишен опит в търговията на едро и дребно със строителни материали и осветителна техника. Фирмата оперира в две основни направления:
+    </p>
+    <ul>
+        <li>
+            <strong>Търговия, доставка и монтаж:</strong> системи в областта на акустиката, сухото строителство, топло и хидроизолационни технологии, финишни покрития и други. Директен вносител и представител на фирми като KNAUF, ROCKWOOL, URSA, USG, MAPEI, RIGIPS, RÖFIX.
+        </li>
+        <li>
+            <strong>Инженеринг и осветление:</strong> проектиране, производство, търговия и изпълнение на електроинсталации и осветителни системи с партньори BEGHELLI, OSRAM, PHILIPS, TRIDONIC, SCHNEIDER ELECTRIC, DELTA LIGHT и други.
+        </li>
+    </ul>
+    <p>
+        Предприятието има собствени търговски и складови бази в София, Варна, Пловдив и Велико Търново, както и представителства в Русе и Бургас, обслужващи корпоративни клиенти и индивидуални поръчки. Богатият асортимент, наличността, конкурентните цени и професионалното обслужване утвърждават Поларис Продукт като водеща фирма в бранша.
+    </p>
+</main>
+
+
+<footer>
+    <p>Автор: Габриела Драгоева | <a href="contact.html">Свържете се с мен</a></p>
+    <p>Този сайт е изработен с учебна цел за дипломен проект в Национална финансово-стопанска гимназия (НФСГ).</p>
+</footer>
+
+</body>
+</html>
